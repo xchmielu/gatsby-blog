@@ -1,5 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 
 html {
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #4AA2FF !important;
+}
+
+/* index */
+.col-sm--image {
+    height: 995px;
+    position: absolute;
+    top: -170px;
+    left: -160px;
 }

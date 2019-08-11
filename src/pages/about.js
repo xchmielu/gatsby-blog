@@ -4,7 +4,7 @@ import SEO from '../components/SEO';
 
 export default () => (
     <PrimaryLayout>
-        <SEO title="O mnie" />
-        <h2>O mnie!</h2>
+        <SEO title="About" />
+        <h2>About</h2>
     </PrimaryLayout>  
 )
