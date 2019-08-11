@@ -6,12 +6,13 @@ export default (props) => (
     <Card style={{ width: '25rem', margin: '25px 25px 25px 25px' }}>
   <Card.Img variant="top" src={props.image} />
   <Card.Body>
-    <p>{props.date}</p>
-    <Card.Title>{props.title}</Card.Title>
-    <Card.Text>
+    
+    <p className="card--title">{props.title}</p>
+    <p className="card--date">{props.date}</p>
+    <p className="card--excerpt">
     {props.excerpt}
-    </Card.Text>
-    <Button variant="primary" as={Link} to={props.readmore}>Czytaj dalej</Button>
+    </p>
+    <button className="card--button"><Link className="card--button--link" to={props.readmore}>Read post</Link></button>
   </Card.Body>
 </Card>
 )

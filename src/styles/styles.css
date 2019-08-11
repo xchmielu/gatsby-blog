@@ -82,3 +82,39 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+
+.card--button {
+    padding: 5px 25px;
+    border-radius: 19px;
+    background-color:#ce56a9;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    align-items: center;
+    margin: 20px;
+    font-weight: 500; 
+}
+
+.card--button--link {
+    color: white;
+    text-decoration: none;
+}
+
+.card--date {
+    color: #a5b7c6;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.card--title {
+    color: #ce56a9;
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.card--excerpt {
+    color: #4AA2FF;
+    font-size: 15px;
+    font-weight: 500;
+}
