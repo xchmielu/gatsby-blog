@@ -23,6 +23,18 @@ module.exports = {
       },
     },
     { resolve: `gatsby-transformer-remark`},
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Chmielewski.dev`,
+        short_name: `Chmielewski`,
+        start_url: `/`,
+        background_color: `#fffff`,
+        theme_color: `#fffff`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`
     // {
     //   resolve: `gatsby-source-wordpress`,
     //   options: {
