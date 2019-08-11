@@ -1,35 +1,25 @@
 import React from "react"
-import Post from "../components/Post";
-import {graphql} from 'gatsby'
+import {Link} from 'gatsby'
 import PrimaryLayout from "../components/layouts/PrimaryLayout";
-export default ({data}) => {
-    console.log(data.allMarkdownRemark)
-    return (
-        <PrimaryLayout>
-            {data.allMarkdownRemark.edges.map(node => (
-            <Post title={node.node.frontmatter.title} date={node.node.frontmatter.date} image={node.node.frontmatter.image} readmore={node.node.fields.slug} excerpt={node.node.excerpt}/> ))}
-        </PrimaryLayout>
-    )
-}
- export const query = graphql`
- {
-    allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            title
-            date
-            tags
-            image
-          }
-          excerpt
-          html
-          fields {
-              slug
-          }
-        }
-      }
-    }
-  }
+export default () => (
+  <PrimaryLayout>
+<div className="row">
+  <div className="col-sm ">
+    <div className="col1">
+    <h1 className="main--h1 ">Developers blog</h1>
+    <p className="main--lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci in praesentium fugit, velit similique, expedita nulla deleniti deserunt odit labore rerum voluptatibus eius molestias quod delectus maiores, amet sit!</p>
+    <div className="main__btnarea">
+    <button className="main__btnarea--button"><Link className="main__btnarea--button--link" to="blog">Read more</Link></button>
+    </div>   
+    </div>
+  </div>
+  <div className="col-sm">
+    <img className="img" alt="code-block" src="main.svg" />
+  </div>
+</div>
+  </PrimaryLayout>
   
- `
+)
+    
+
+ 

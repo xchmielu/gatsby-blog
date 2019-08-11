@@ -15,13 +15,11 @@ const SEO = (title, description, image, ) => (
                 }
             }
     }) => {
-        console.log(title.title)
         const seo = {
             title: title.title || defaultTitle,
             description: description || defaultDescription,
             image: `${url}/static/${image || defaultImage}`
         }
-        console.log(seo.title)
         return(
         <Helmet>
             <title>{seo.title} {seo.title === defaultTitle ? '' : `| ${defaultTitle}` } </title>
