@@ -5,6 +5,6 @@ import SEO from '../components/SEO';
 export default (props) => (
     <PrimaryLayout>
         <SEO title="Portfolio" />
-        <h2>Portfolio</h2>
+        <h1 className="portfolio--h1">Portfolio</h1>
     </PrimaryLayout>  
 )

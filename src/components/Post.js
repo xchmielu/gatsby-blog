@@ -12,7 +12,9 @@ export default (props) => (
     <p className="card--excerpt">
     {props.excerpt}
     </p>
-    <button className="card--button"><Link className="card--button--link" to={props.readmore}>Read post</Link></button>
+    <div className="card__button">
+      <button className="card__button--button"><Link className="card--button--link" to={props.readmore}>Read post</Link></button>
+    </div>
   </Card.Body>
 </Card>
 )
