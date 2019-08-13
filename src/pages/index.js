@@ -14,7 +14,7 @@ export default () => (
     </div>
   </div>
   <div className="col-sm">
-    <img className="img" alt="code-block" src="main.svg" />
+    <img className="img" alt="code-block" src={"main.svg"} />
   </div>
 </div>
   </PrimaryLayout>
