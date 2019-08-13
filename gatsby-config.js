@@ -22,6 +22,8 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     { resolve: `gatsby-transformer-remark`},
     {
       resolve: `gatsby-plugin-manifest`,
@@ -34,7 +36,8 @@ module.exports = {
         display: `standalone`,
       },
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+
     // {
     //   resolve: `gatsby-source-wordpress`,
     //   options: {
