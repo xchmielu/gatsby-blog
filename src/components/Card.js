@@ -25,15 +25,15 @@ export default (props) => (
   <div className="portfolio__card--data">
     <div>
       <h6>Main tech</h6>
-      <p>Node.js</p>
+      <p>{props.maintech}</p>
     </div>
     <div>
       <h6>Sub tech</h6>
-      <p>F. Mohen</p>
+      <p>{props.subtech}</p>
     </div>
     <div>
       <h6>Database</h6>
-      <p>J. Dawn</p>
+      <p>{props.database}</p>
     </div>
   </div>
 

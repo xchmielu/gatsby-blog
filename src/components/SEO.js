@@ -15,6 +15,7 @@ const SEO = (title, description, image, ) => (
                 }
             }
     }) => {
+
         const seo = {
             title: title.title || defaultTitle,
             description: description || defaultDescription,
