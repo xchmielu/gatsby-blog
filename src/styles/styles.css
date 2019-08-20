@@ -195,3 +195,7 @@ a:hover {
     }
   }
 
+  pre.solarized-dark.vscode-highlight {
+    font-size: medium;
+    font-weight: 600;
+}
