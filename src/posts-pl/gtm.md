@@ -1,3 +1,4 @@
+
 ---
 title: "How to track iframed form?"
 date: "2019-07-21"
@@ -5,9 +6,8 @@ tags: "first post"
 image: "https://www.nemil.com/images/redis-code.png"
 ---
 
-<!-- Czy używałeś kiedyś formularzy, które były wystawione na zupełnie innej stronie? A może używasz narzędzi do automatyzacji działań marketingowych i byłeś zmuszony używać tagu `iframe` w którym przechowywałeś formularz? Dzięki narzędziu Google Tag Manager jesteśmy w łatwy i szybki sposób przesyłać zdarzenia z GTM'a podpiętego do formularza do naszego prawidłowego GTM'a, a tam już droga prosta do stworzenia zdarzenia, które będzie śledzone w Google Analytics. -->
 
-Have you ever used forms that were displayed on a completely different page? Or maybe you use tools to automate marketing activities and were forced to use the `iframe` tag in which you stored the form? Thanks to the Google Tag Manager tool, we are able to easily and quickly send events from GTM connected to the form to our correct GTM, and there is a straight way to create an event that will be tracked in Google Analytics.
+Czy używałeś kiedyś formularzy, które były wystawione na zupełnie innej stronie? A może używasz narzędzi do automatyzacji działań marketingowych i byłeś zmuszony używać tagu `iframe` w którym przechowywałeś formularz? Dzięki narzędziu Google Tag Manager jesteśmy w łatwy i szybki sposób przesyłać zdarzenia z GTM'a podpiętego do formularza do naszego prawidłowego GTM'a, a tam już droga prosta do stworzenia zdarzenia, które będzie śledzone w Google Analytics.
 
 
 ## How to start?
