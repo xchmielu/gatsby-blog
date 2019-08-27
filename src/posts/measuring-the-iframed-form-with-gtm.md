@@ -117,8 +117,8 @@ try {
 ```
 
 In the `Rule` tab we select from the` Form ID` list if we do not have one and provide the id of our form
-`` Html
-<form id = "myform" ...
+```html
+<form class = "myform" ...
 ```
 
 In my case, id to `myform` can be used to enter any string of characters, best to provide such that in the future we understand what this id is,

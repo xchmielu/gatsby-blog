@@ -3,6 +3,8 @@ import PrimaryLayout from "../components/layouts/PrimaryLayout";
 import Post from "../components/Post";
 import {graphql} from 'gatsby'
 import SEO from "../components/SEO";
+import 'gatsby-remark-vscode/styles.css'
+
 export default ({data}) => {
    
         return (

@@ -115,8 +115,12 @@ try {
 </script>
 ```
 
-w zakładce `Reguła` wybieramy z listy  `Form ID`, jeśli nie mamy i podajemy id naszego formularza
+w zakładce `Reguła` wybieramy z listy  `Form Clasess`, jeśli nie mamy i podajemy id naszego formularza
 ```html
-<form id="myform" ...
+<form class="myform" ...
 ```
-W moim przypadku id to `myform` mozna podać tam dowolny ciąg znaków, najelpiej podać taki abyśmy w przyszłości rozumieli czym jest te id, 
+W moim przypadku klasa to `myform` mozna podać tam dowolny ciąg znaków. Na kocu nadajemu nazwę naszemu tagu w prawym górnym rogu okna konfiguracyjnego tagu. Zapusjemy i przechodzimy do kolejnego kroku.
+
+## Second Tag - Reciver
+
+Teraz na stronie na której wrowadziliśmy nasz formularz zwrapowany tagiem `iframe` możemy przystąpić do odbierania interakacji użytkownika. 
