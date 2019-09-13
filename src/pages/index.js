@@ -7,7 +7,7 @@ export default () => (
   <div className="col-sm ">
     <div className="col1">
     <h1 className="main--h1 ">Developers blog</h1>
-    <p className="main--lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci in praesentium fugit, velit similique, expedita nulla deleniti deserunt odit labore rerum voluptatibus eius molestias quod delectus maiores, amet sit!</p>
+    <p className="main--lead">The contnet on this blog is mainly focused on some analytics topics. Yow will find here also many programing topics, like scraping or SEO for JavaScript websites. Check some cool stuff clicking the buttom below! </p>
     <div className="main__btnarea">
     <button className="main__btnarea--button"><Link className="main__btnarea--button--link" to="blog">Read more</Link></button>
     </div>   
