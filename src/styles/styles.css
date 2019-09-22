@@ -156,6 +156,12 @@ a:hover {
 .about {
     display: flex;
 }
+img {
+    max-width: 100%;
+}
+pre {
+    display: grid;
+}
 .about--image {
         width: 50%;
         /* mask-image: -webkit-gradient(linear, left top, right bottom, 
