@@ -14,7 +14,7 @@ export default () => (
     </div>
   </div>
   <div className="col-sm">
-    <img className="img" alt="code-block" src={"main.svg"} />
+    <img className="img" alt="code-block" src="https://s3.eu-central-1.amazonaws.com/chmielewski.dev/main.svg" />
   </div>
 </div>
   </PrimaryLayout>

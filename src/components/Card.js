@@ -40,5 +40,8 @@ export default (props) => (
   <a className="portfolio__card--btn"  href={props.git}>
     <p>Check code on github</p>
   </a>
+  <a className="portfolio__card--btn"  href={props.live}>
+    <p>Live version</p>
+  </a>
 </div>
 )

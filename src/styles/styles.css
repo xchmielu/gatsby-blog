@@ -47,6 +47,8 @@
     color: #a8a8a8;
     font-weight: 500;
     margin: 10px 25px 10px 25px;
+    align-items: center;
+    justify-content: center;
 }
 
 .img {
@@ -83,6 +85,7 @@ a:hover {
 .card {
     border-radius: 30px;
     background-color: #18223F;
+    border: 0px;
 }
 
 .card__button--button {
@@ -150,7 +153,9 @@ a:hover {
     color: #4AA2FF;
     font-weight: 500;
     font-size: 20px;
-    margin: 20px 30px
+    margin: 20px 30px;
+    text-align: center;
+    
 }
 
 .about {
@@ -226,4 +231,8 @@ h2 {
     color: #4AA2FF;
     font-weight: 600;
     padding: 10px;
+}
+
+.notfound {
+    display: flex;
 }

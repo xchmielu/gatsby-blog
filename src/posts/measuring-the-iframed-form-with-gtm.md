@@ -2,7 +2,7 @@
 title: "How to track iframed form?"
 date: "2019-07-21"
 tags: "Google Tag Manager, Google Analytics"
-image: "https://www.nemil.com/images/redis-code.png"
+image: "https://s3.eu-central-1.amazonaws.com/chmielewski.dev/trackiframedforms.webp"
 ---
 
 
