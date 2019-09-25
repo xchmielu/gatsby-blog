@@ -236,3 +236,10 @@ h2 {
 .notfound {
     display: flex;
 }
+
+
+@media (max-width: 1600px) {
+    .notfound {
+        display: table-row;
+    }
+  }
