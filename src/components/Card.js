@@ -32,8 +32,8 @@ export default (props) => (
       <p>{props.subtech}</p>
     </div>
     <div>
-      <h6>Database</h6>
-      <p>{props.database}</p>
+      <h6>API Type</h6>
+      <p>{props.apitype}</p>
     </div>
   </div>
 
