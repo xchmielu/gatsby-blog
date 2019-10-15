@@ -1,18 +1,18 @@
 .card {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    width: 400px;
-    height: auto;
-    margin: 6% auto;
-    
-    border-top: 6px solid #38429F;
-    background-color: #18223F;
-    
-    -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.25);
-  }
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 400px;
+  height: auto;
+  margin: 6% auto;
+
+  border-top: 6px solid #38429f;
+  background-color: #18223f;
+
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+}
 
 .test {
   background-color: red;
