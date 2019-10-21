@@ -15,7 +15,11 @@ export default () => (
       <div className="about--container">
         <div className="about__social">
           <a href="https://s3.eu-central-1.amazonaws.com/chmielewski.dev/_Mateusz-Chmielewski-CV-ENG.pdf">
-            <img className="about__social--item" src="cv.svg" alt="" />
+            <img
+              className="about__social--item"
+              src="https://s3.eu-central-1.amazonaws.com/chmielewski.dev/cv.svg"
+              alt=""
+            />
           </a>
           <a href="https://github.com/xchmielu">
             <img
