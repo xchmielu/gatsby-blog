@@ -12,13 +12,34 @@ export default () => (
         src="https://s3.eu-central-1.amazonaws.com/chmielewski.dev/pluto-welcome.webp"
         alt=""
       />
-      <p className="about--lead">
-        Hello, I am 3rd year student of Warsaw School of Computer Science in
-        specialization of Databases. My passion is to create and build software
-        using JavaScript libraries. My free time mostly spend on learning new
-        techs. In this time I'am learnign TypeScript and preapring it to use
-        with Koa.js.
-      </p>
+      <div className="about--container">
+        <div className="about__social">
+          <a href="https://s3.eu-central-1.amazonaws.com/chmielewski.dev/_Mateusz-Chmielewski-CV-ENG.pdf">
+            <img className="about__social--item" src="cv.svg" alt="" />
+          </a>
+          <a href="https://github.com/xchmielu">
+            <img
+              className="about__social--item"
+              src="https://s3.eu-central-1.amazonaws.com/chmielewski.dev/github.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/mateuszchmielewski/">
+            <img
+              className="about__social--item"
+              src="https://s3.eu-central-1.amazonaws.com/chmielewski.dev/linkedin.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <p className="about--lead">
+          Hello, I am 3rd year student of Warsaw School of Computer Science in
+          specialization of Databases. My passion is to create and build
+          software using JavaScript libraries. My free time mostly spend on
+          learning new techs. In this time I'am learnign TypeScript and
+          preapring it to use with NestJs.
+        </p>
+      </div>
     </div>
     <h2 className="about--h2">Skills</h2>
     <div className="about__skills">

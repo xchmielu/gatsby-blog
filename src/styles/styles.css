@@ -152,7 +152,6 @@ a:hover {
   font-weight: 500;
   font-size: 20px;
   margin: 20px 30px;
-  text-align: center;
 }
 
 .about {
@@ -236,4 +235,18 @@ h2 {
   .notfound {
     display: table-row;
   }
+}
+
+.about__social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__social--item {
+  width: 50vh;
+  height: 60px;
+}
+
+.about--container {
+  margin: 20px 0px;
 }
